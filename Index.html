@@ -808,14 +808,14 @@ service cloud.firestore {
     const appId = typeof __app_id !== 'undefined' ? __app_id : 'karhutla-evaluasi-sekolah';
     
     // Konfigurasi Firebase dari environment atau konfigurasi default untuk GitHub
-    const defaultFirebaseConfig = {
-      apiKey: "AIzaSyDummyKeyForTemplate-PleaseReplaceIfStandalone",
-      authDomain: "evaluasi-karhutla.firebaseapp.com",
-      projectId: "evaluasi-karhutla",
-      storageBucket: "evaluasi-karhutla.appspot.com",
-      messagingSenderId: "1234567890",
-      appId: "1:1234567890:web:abcdef123456"
-    };
+const firebaseConfig = {
+  apiKey: "AIzaSyCKmtKE7eqktf35baeHKKQekGAwcqRQgJ8",
+  authDomain: "karhutla-dab11.firebaseapp.com",
+  projectId: "karhutla-dab11",
+  storageBucket: "karhutla-dab11.firebasestorage.app",
+  messagingSenderId: "1048468383152",
+  appId: "1:1048468383152:web:0678010108bcfb80086275"
+};
 
     let firebaseConfig = defaultFirebaseConfig;
     if (typeof __firebase_config !== 'undefined' && __firebase_config) {
